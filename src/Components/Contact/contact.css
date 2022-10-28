@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700;900&display=swap');
+.main {
+    background:linear-gradient(rgba(15, 15, 35, 0.9), rgba(0, 0, 0, 0.8)), url("../Images/Business.jpeg");
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    height: 100vh;
+    
+    
+}
+.contact {
+    width: 1000px;
+    height: 550px;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 200px;
+    opacity: 0.4;
+}
+.inner {
+    color: white;
+    font-weight: bold;
+    font-size: 4px;
+    z-index: auto;
+}
+.p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 435px;
+    font-weight: bold;
+    font-size: 35px;
+    z-index: 7;
+    text-align: center;
+    top: 30%;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.p h1 {
+    font-size: 60px;
+}
+.icontel {
+    color: orange;
+}
