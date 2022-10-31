@@ -62,11 +62,12 @@ function Users() {
                   totalPosts={userData.length} 
                   pagePerShow={pagePerShow} 
                   setCurrentPage={setCurrentpage} 
-                  currentPage={currentPage}  
+                  currentPage={currentPage} 
+                  setPagePerShow={setPagePerShow} 
                 />
             </div>
       </section>
   )
 }
 
-export default Users
+export default Users 
